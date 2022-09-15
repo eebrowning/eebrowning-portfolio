@@ -10,6 +10,7 @@
 	<title>Ethan Browning</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -60,10 +61,14 @@
 
 				<div id="project-box" class="row">
 					<div class="col-6 project-card">
-						<h2>PipCamp</h2>
-						<a href="https://pip-camp.herokuapp.com/" class="image fit"><img
-								src="https://user-images.githubusercontent.com/51832487/184191666-eef5ad5d-53fb-476d-a1d9-565f433633f5.png"
-								alt="pipcamp" /></a>
+						<div>
+
+							<h2>PipCamp</h2>
+							<a href="https://pip-camp.herokuapp.com/" class="image fit"><img
+									src="https://user-images.githubusercontent.com/51832487/184191666-eef5ad5d-53fb-476d-a1d9-565f433633f5.png"
+									alt="pipcamp" /></a>
+						</div>
+
 						<ul class="col-6-info">
 							<h2>
 								A HipCamp-inspired Fallout-styled clone made with Flask / Python, React / Javascript,
@@ -71,76 +76,99 @@
 								hosting, AWS image hosting
 							</h2>
 							<li>
-								Detailed Flask forms allow for info-dense strings from React to be validated as complete
-								and stored with SQLAlchemy
+								Created a pixel-perfect HipCamp Clone, styled like the Fallout 4 video game: styled
+								purely with CSS, no frontend frameworks.
+								Sizing is dynamic to preserve the UI of the inspiring project at a range of desktop
+								screen sizes
 							</li>
 							<li>
-								Designed Locations database objects to condense a form with 23 fields into an object
-								with 8 columns
+								PostgreSQL database size reduced by condensing 23 fields into an object with 8 columns
+								for Locations: storage handled with SQLAlchemy and provided to the frontend via Redux.
+								React Components facilitate dynamic addition of features and styling.
 							</li>
 							<li>
-								Achieved pixel-perfect recreation of inspiring web app, with the application of a
-								different theme and color palette
+								The result is a smooth, functional web application that is also easy to use and
+								understand for a casual user.
 							</li>
 						</ul>
 					</div>
 					<div class="col-6 project-card">
-						<h2>TableOpen</h2> <a href="https://opentableproject.herokuapp.com/" class="image fit"><img
-								src="https://pipcamp.s3.amazonaws.com/9b171670c45643d0a5c6ed5319cb1011.png"
-								alt="" /></a>
+						<div>
+							<h2>TableOpen</h2> <a href="https://opentableproject.herokuapp.com/" class="image fit"><img
+									src="https://pipcamp.s3.amazonaws.com/9b171670c45643d0a5c6ed5319cb1011.png"
+									alt="" /></a>
+						</div>
+
 						<ul class="col-6-info">
 							<h2>An OpenTable clone; a Flask / React / Redux project with 3 teammates, constructed in 4
 								days with 1 week of Python experience
 							</h2>
 							<li>
-								Backend and Frontend components constructed in 2.5 days, all styling achieved in 1.5
-								days
+								A team-effort showcasing the production of a two CRUD feature application: each of us
+								having a hand in creating API routes, database models, frontend forms and the shaping of
+								the state via the Redux store.
+
 							</li>
 							<li>
-								Showcases the ability to combine disparate programming languages into a two CRUD feature
-								application
+								Backend and Frontend components were constructed in 2.5 days, all styling achieved in
+								1.5 days.
 							</li>
 							<li>
-								Took care that we ensured a refined UX/UI while under time constraints
+								Provided a refined UX/UI while under time constraints: We ensured any interactive
+								element was unquestionably interactive while being pleasing to look at.
+
 							</li>
 						</ul>
 					</div>
 					<div class="col-6 project-card">
-						<h2>Moetaku</h2> <a href="https://moetaku.herokuapp.com/" class="image fit"><img
-								src="https://user-images.githubusercontent.com/51832487/173195212-83059e16-c31c-447d-8544-83997478426e.png"
-								alt="" /></a>
+						<div>
+							<h2>Moetaku</h2> <a href="https://moetaku.herokuapp.com/" class="image fit"><img
+									src="https://user-images.githubusercontent.com/51832487/173195212-83059e16-c31c-447d-8544-83997478426e.png"
+									alt="" /></a>
+						</div>
 						<ul class="col-6-info">
 							<h2>A Medium clone for creating and reviewing gaming articles: Express.js, PUG, Heroku
 								hosting.</h2>
 
 							<li>
-								First fullstack project as a team
+								A team-effort exercizing our skills with older technologies: vanilla css styling and PUG
+								templating
 							</li>
 							<li>
-								Express backend for routes and serving information
+								The Express backend for routes and serving information uses RESTful convention for
+								endpoints
 							</li>
 							<li>
-								Dynamically updating features for a smoothe user experience
+								Dynamically updating features for a smooth user experience
 							</li>
 						</ul>
 					</div>
 					<div class="col-6 project-card">
-						<h2>Bark!</h2> <a href="https://bark-eeb828.herokuapp.com/" class="image fit"><img
-								src="https://pipcamp.s3.amazonaws.com/2d74cb10766c4ec29adefb13878991d2.png"
-								alt="" /></a>
+						<div>
+
+							<h2>Bark!</h2> <a href="https://bark-eeb828.herokuapp.com/" class="image fit"><img
+									src="https://pipcamp.s3.amazonaws.com/2d74cb10766c4ec29adefb13878991d2.png"
+									alt="" /></a>
+						</div>
+
 						<ul class="col-6-info">
-							<h2>A Yelp clone for places you can take your dog: Express.js, React.js, Heroku hosting
+							<h2>A Yelp clone for places you can take your dog: Express.js, React.js, Heroku
+								hosting
 							</h2>
 							<li>
-								Utilized the Redux store to add and remove from State for dynamically available data
+								Created a simple site for creating and reviewing locations to take your dog: includes
+								location search and average ratings.
 
 							</li>
 							<li>
-								First Fullstack project as a solo developer: Place creation and Reviews/ratings on those
-								places
+								Express backend uses Sequelize RDBMS to store and serve information, while the React
+								frontend uses Redux store to manage State to keep information available at critical
+								points.
+								Simple fetch requests filtered for desired search results.
 							</li>
 							<li>
-								PostgreSQL database managed with the Sequelize object-relational mapper
+								The site demonstrates shaping and management of state to provide a smooth user
+								experience.
 							</li>
 						</ul>
 					</div>
@@ -149,6 +177,9 @@
 		</div>
 		<div id="skills" class="skills-box-shell">
 			<h2>Skills</h2>
+			<br />
+			<br />
+
 			<div class="skills-box">
 				<div class="custom-skill-logo">
 					<img src="https://www.gaborkurucz.com/assets/images/custom/logos/react_logo.png" alt="react"
@@ -200,62 +231,23 @@
 			</div>
 		</div>
 
-		<!-- <div class="content dark style1 featured" id='circles'>
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-12-narrow">
-							<section>
-								<span class="feature-icon"><span class="icon fa-clock"></span></span>
-								<header>
-									<h3>Gravida</h3>
-								</header>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-							</section>
-						</div>
-						<div class="col-4 col-12-narrow">
-							<section>
-								<span class="feature-icon"><span class="icon solid fa-bolt"></span></span>
-								<header>
-									<h3>Vivamus</h3>
-								</header>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-							</section>
-						</div>
-						<div class="col-4 col-12-narrow">
-							<section>
-								<span class="feature-icon"><span class="icon solid fa-cloud"></span></span>
-								<header>
-									<h3>Accumsan</h3>
-								</header>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-							</section>
-						</div>
-						<div class="col-12">
-							<footer>
-								<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
-							</footer>
-						</div>
-					</div>
-				</div>
-			</div> -->
 		</div>
 
 	</section>
 
 	<!-- Third -->
 	<section id="about" class="main">
+		<br />
+
 		<header id="about-header">
+
 			<h2>About Ethan.</h2>
 			<p>A software engineer living in between Boulder and Denver, CO</p>
+			<br />
+			<br />
+			<br />
+
+
 		</header>
 		<div class="content dark style3">
 			<div id="about-card" class="container">
@@ -266,10 +258,11 @@
 					<p>
 						Along with my experience as a programmer, I spent a long time working in specialty coffee and as
 						a repair tech for coffee equipment.
-						I really enjoy tinkering and making things function their best: whether it's DRYing up the code
-						in a project, repairing/optimizing commercial equipment, or making my Skyrim character as OP as
-						possible, I'm always striving to make things a little bit better, and to be a little bit better
-						every day myself.
+						I really enjoy tinkering and making things function their best: whether it's reducing time/space
+						complexity, DRYing up the code in a project, repairing/optimizing commercial equipment, or
+						making my Skyrim character as
+						overpowed as possible, I'm always striving to make things a little bit better.
+
 					</p>
 				</div>
 				<br />
@@ -282,188 +275,12 @@
 		</div>
 		</div>
 	</section>
-
-	<!-- Basic Elements -->
-	<!-- 
-	<section class="main">
-		<header>
-			<div class="container">
-				<h2>A Whole Lotta Elements</h2>
-				<p>General purpose elements for every general purpose. Or something like that.</p>
-			</div>
-		</header>
-		<div class="content style1 dark">
-			<div class="container">
-				<section>
-					<header>
-						<h3>Paragraph</h3>
-						<p>This is a byline</p>
-					</header>
-					<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada
-						<em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-				</section>
-				<section>
-					<header>
-						<h3>Blockquote</h3>
-					</header>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
-						tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-				</section>
-				<section>
-					<header>
-						<h3>Divider</h3>
-					</header>
-					<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					<hr />
-					<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-				</section>
-				<section>
-					<header>
-						<h3>Unordered List</h3>
-					</header>
-					<ul class="default">
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-					</ul>
-				</section>
-				<section>
-					<header>
-						<h3>Ordered List</h3>
-					</header>
-					<ol class="default">
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-						<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor
-							sagittis lorem.</li>
-					</ol>
-				</section>
-				<section>
-					<header>
-						<h3>Table</h3>
-					</header>
-					<div class="table-wrapper">
-						<table class="default">
-							<thead>
-								<tr>
-									<th>ID</th>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>00001</td>
-									<td>Lorem ipsum dolor</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>00002</td>
-									<td>Sit amet nullam</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>00003</td>
-									<td>Feugiat felis viverra</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>00004</td>
-									<td>Sagittis enim felis</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>00005</td>
-									<td>Nullam sed vestibulum</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="3"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</section>
-				<section>
-					<header>
-						<h3>Form</h3>
-					</header>
-					<form method="post" action="#">
-						<div class="row gtr-50">
-							<div class="col-6 col-12-narrow">
-								<input type="text" name="name" id="name" value="" placeholder="John Doe" />
-							</div>
-							<div class="col-6 col-12-narrow">
-								<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-							</div>
-							<div class="col-12">
-								<div class="select" tabindex="-1">
-									<select name="department" id="department">
-										<option value="">Choose a department</option>
-										<option value="1">Manufacturing</option>
-										<option value="2">Administration</option>
-										<option value="3">Support</option>
-									</select>
-								</div>
-							</div>
-							<div class="col-12">
-								<input type="text" name="subject" id="subject" value=""
-									placeholder="Enter your subject" />
-							</div>
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><input type="submit" class="button" value="Send Message" /></li>
-									<li><input type="reset" class="button alt" value="Clear Form" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</section>
-			</div>
-		</div>
-	</section>
-	-->
-
-	<!-- Fourth -->
 	<section id="fourth" class="main">
 		<header>
 			<div class="container">
 				<h2>Get in touch:</h2>
-				<p>My email is always open to inquiries about my work or job opportunities; feel free to drop me a
-					message</p>
+				<p>My email is always open to inquiries about my work or job opportunities--feel free to drop me a
+					message!</p>
 			</div>
 		</header>
 		<div class="content style4 featured">

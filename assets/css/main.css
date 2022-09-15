@@ -2744,3 +2744,8 @@ button.alt:hover,
 #about-card p {
 	padding-left: 30px;
 }
+
+.col-6-info {
+	padding-left: 35px;
+	list-style: circle;
+}
