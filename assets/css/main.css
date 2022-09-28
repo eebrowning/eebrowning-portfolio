@@ -2338,7 +2338,7 @@ button.alt:hover,
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	background-image: url("https://assets.wallpapersin4k.org/uploads/2017/04/Black-Transparent-Wallpaper-11.png"), url("https://user-images.githubusercontent.com/51832487/185720842-ecf512d2-d96b-44e6-9ac3-f8668ea7507b.jpg");
 	/* object-fit: cover; */
 	background-size: cover;
